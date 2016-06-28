@@ -1,9 +1,12 @@
 Depends:
-    gcc, bash, imagemagic, straight hands
+    gcc, bash, straight hands
 
 For example do it:
 
     cd percent_final
-    ./build
-    ./run.sh Examples/therealtestgame.bmp
+    qmake
+    make
+    percent negate Examples/therealtestgame.bmp
+    percent Examples/darkcircle.bmp
 
+Warning! All images that you want to test must have bmp format.
