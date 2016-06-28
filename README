@@ -1,0 +1,9 @@
+Depends:
+    gcc, bash, imagemagic, straight hands
+
+For example do it:
+
+    cd percent_final
+    ./build
+    ./run.sh Examples/therealtestgame.bmp
+
